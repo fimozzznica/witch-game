@@ -10,11 +10,12 @@ public class Back : MonoBehaviour
     { 
         thisCanvas.SetActive(mainMenu.activeInHierarchy);
         mainMenu.SetActive(!mainMenu.activeInHierarchy);
-        
+        Debug.Log("doing button thing");
     }
 
     private void Awake()
     {
+        Debug.Log("button clicked");
         backButton.onClick.AddListener(DoButtonThing);
     }
 }

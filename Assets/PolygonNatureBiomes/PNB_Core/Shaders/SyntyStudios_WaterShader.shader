@@ -58,7 +58,6 @@ Shader "SyntyStudios/WaterShader"
 	{
 		Tags{ "RenderType" = "Transparent"  "Queue" = "Transparent+0" "IgnoreProjector" = "True" "IsEmissive" = "true"  }
 		Cull Back
-		GrabPass{ }
 		CGINCLUDE
 		#include "UnityShaderVariables.cginc"
 		#include "UnityStandardUtils.cginc"
